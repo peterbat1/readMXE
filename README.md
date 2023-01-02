@@ -5,6 +5,6 @@ The Java program MaxEnt is perhaps the most widely-used tool for producing Ecolo
 
 The MaxEnt Java program does provide some command line tools for translating these data into a small number of alternate GIS file formats, but does not allow these GIS layers to be saved in the widely-used *geoTIFF* format.
 
-The **R** function *readMXE* parses the mxe file and stores the extracted data in an **R** list object. These data can be easily re-packaged and saved in a very wide range of GIS raster data types, but most importantly, they can be saved as a *geoTIFF* file with jsut a few lines fo code using **R** packages such as *raster* and *terra*..
+The **R** function *readMXE* parses the mxe file and stores the extracted data in an **R** list object. These data can be easily re-packaged and saved in a very wide range of GIS raster data types, but most importantly, they can be saved as a *geoTIFF* file with jsut a few lines fo code using **R** packages such as *raster* and *terra*.
 
 Data extraction is possible because the mxe file is actually a standard Java datastream saved to disk. A first post about this realisation, and its consequences for writing some simple code to extract data from it, can be found here https://rpubs.com/puddleduck/67084.
